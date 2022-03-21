@@ -10,7 +10,7 @@ sass:
 
 # Resume settings
 resume_avatar:                  "true"
-resume_name:                    "Lisa M. Simpson"
+resume_name:                    "안녕하세요 <br> 윤현준입니다"
 resume_title:                   "VP of Global Communications"
 
 # used for the contact button in _layouts/resume.html
@@ -23,13 +23,15 @@ resume_contact_address:         "742 Evergreen Terrace, Springfield"
 resume_header_contact_info:     "742 Evergreen Terrace, Springfield • 555-7334 • lisasimpson@youremailaddress.com"
 display_header_contact_info:    "false"
 
-resume_header_intro: "<p>This is the executive summary. You should write a few brief, concise, and meaningful sentences about yourself from a professional context, and your immediate career goals. Make the length appropriate for your needs, but keep it brief and concise</p>"
+resume_header_intro: "<p> Computer language의 Reusability와 Extensibility에 대한 끊임없는 탐구와 구현을 갈구하는 컴퓨터 엔지니어입니다. <br>
+           저는 제가 경험하는 Computer System과 Design Architecutre의 Operating philosophy에 대한 이해와 그에 따른 구현을 즐깁니다. <br>
+           Computer Engineer의 가치는 변화하는 세상에 대해 더 효율적이고 통찰력 있는 System을 구현하는데 있다고 믿고 있습니다.<p>"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
 # or remove the resume_looking_for_work option entirely
 # to leave blank
-resume_looking_for_work:        "yes"
+resume_looking_for_work:        "no"
 
 # Decide which sections to use
 # comment out to hide
@@ -53,7 +55,7 @@ resume_social_links:
   # resume_instagram_url:         "insert your Instagram URL here"
   resume_website_url:           "http://joelglovier.com"
   resume_medium_url:            "https://medium.com/@jglovier"
-resume_print_social_links:      true
+resume_print_social_links:      false
 
 # Design settings
 resume_theme:                   default
