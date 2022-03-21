@@ -1,12 +1,22 @@
 # Skills
-# Organizational leadership
-- skill: Organizational leadership
-  description: I have several years of experience leading organziations from community groups to business departments. From public speaking, to mentoring, to coordination of people and events, I can lead in any context.
 
-# Communications strategy
-- skill: Communications strategy
-  description: Content and marketing strategy,
+- skill: Overall
+  description: Software Design Pattern과 그 구현에 대하여 관심이 많습니다. 최근에는 MVI pattern을 적용한 Toy-Project를 진행하고 있습니다.
+변화하는 모든 것을 유연하게 생각합니다. 제가 옳다고 믿었던 것이 바뀌게 된 순간을 언제라도 받아들일 수 있는 용기가 있습니다.
+팀의 운영과 필요가 있다면 제 커리어 다소 맞지 않다고 생각되는 일도 기꺼이 할 의지가 있습니다. 모든 일은 어떠한 방면으로든 유용할 수 있다고 생각합니다.
 
-# Digital content development and creation
-- skill: Digital content development and creation
-  description: Copy writing, graphic design, web design, front-end web development, print design
+- skill: Communication
+  description: 솔직하고 적극적인 의사소통으로 오해없이 생각의 공유가 이루어질 수 있도록 합니다.
+인류 문명은 소수자의 지식 전승과 비법으로 이루어지는 게 아니라 활발한 커뮤니케이션과 다수의 참여로 이루어진다고 믿습니다.
+언제나 모든 정보에 대해 명확하게 알 수 없기에 모든 것의 가능성에 대하여 고려하며 속단하지 않습니다.
+
+- skill: Android - Kotlin
+  description: 개인 안드로이드 프로젝트 개발 경험 및 상용 서비스 운영(https://vlm-naiman.tistory.com)
+	Jetpack Compose와 Databinding된  XML을 적용한 UI/UX 개발 경험
+	Coroutine/flow와 RXjava를 활용한 비동기 데이터처리 및 최적화 경험
+	Hilt를 사용한 DI 방식의 ViewModel를 활용한 MVVM, MVI 개발 경험
+	Firebase 를 사용한 NoSQL database Backend 개발 경험
+	Node.js를 사용한 Firebase Server request trigger 개발 및 운영
+  Multi-project로 기능 단위별 프로젝트 분리 및 별도의 library 를 만들어 reusable한 설계 경험
+	Clean Architecture 형식의 package module운용 관리
+
