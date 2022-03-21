@@ -12,11 +12,15 @@
 
 - skill: Android - Kotlin
   description: 개인 안드로이드 프로젝트 개발 경험 및 상용 서비스 운영(https://vlm-naiman.tistory.com)
-	Jetpack Compose와 Databinding된  XML을 적용한 UI/UX 개발 경험
-	Coroutine/flow와 RXjava를 활용한 비동기 데이터처리 및 최적화 경험
-	Hilt를 사용한 DI 방식의 ViewModel를 활용한 MVVM, MVI 개발 경험
-	Firebase 를 사용한 NoSQL database Backend 개발 경험
-	Node.js를 사용한 Firebase Server request trigger 개발 및 운영
-  Multi-project로 기능 단위별 프로젝트 분리 및 별도의 library 를 만들어 reusable한 설계 경험
-	Clean Architecture 형식의 package module운용 관리
+Jetpack Compose와 Databinding된  XML을 적용한 UI/UX 개발 경험
+Coroutine/flow와 RXjava를 활용한 비동기 데이터처리 및 최적화 경험
+Hilt를 사용한 DI 방식의 ViewModel를 활용한 MVVM, MVI 개발 경험
+Firebase 를 사용한 NoSQL database Backend 개발 경험
+Node.js를 사용한 Firebase Server request trigger 개발 및 운영
+Multi-project로 기능 단위별 프로젝트 분리 및 별도의 library 를 만들어 reusable한 설계 경험
+Clean Architecture 형식의 package module 운용 관리
 
+
+- skill: Build tool ( Gradle, SBT )
+  description: Gradle / SBT를 이용한 Multi-Project 관리 및 build process 최적화 경험
+  Kotlin/Java/Scala 로 구성된 project의 dependencies 구성 및 library화
