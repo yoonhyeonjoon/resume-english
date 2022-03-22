@@ -136,25 +136,25 @@
 <!--      &lt;!&ndash; end Recognition &ndash;&gt;-->
 <!--      {% endif %}-->
 
-      {% if site.resume_section_associations %}
-      <!-- begin Associations -->
-      <section class="content-section">
+<!--      {% if site.resume_section_associations %}-->
+<!--      &lt;!&ndash; begin Associations &ndash;&gt;-->
+<!--      <section class="content-section">-->
 
-        <header class="section-header">
-          <h2>Associations</h2>
-        </header>
+<!--        <header class="section-header">-->
+<!--          <h2>Associations</h2>-->
+<!--        </header>-->
 
-        {% for association in site.data.associations %}
-        <div class="resume-item" itemscope itemprop="memberOf" itemtype="http://schema.org/Organization">
-          <h3 class="resume-item-title" itemprop="name">{% if association.url %}<a href="{{ association.url }}">{{ association.organization }}</a>{% else %}{{ association.organization }}{% endif %}</h3>
-          <h4 class="resume-item-details" itemprop="description">{{ association.role }} &bull; {{ association.year }}</h4>
-          <p class="resume-item-copy">{{ association.summary }}</p>
-        </div>
-        {% endfor %}
+<!--        {% for association in site.data.associations %}-->
+<!--        <div class="resume-item" itemscope itemprop="memberOf" itemtype="http://schema.org/Organization">-->
+<!--          <h3 class="resume-item-title" itemprop="name">{% if association.url %}<a href="{{ association.url }}">{{ association.organization }}</a>{% else %}{{ association.organization }}{% endif %}</h3>-->
+<!--          <h4 class="resume-item-details" itemprop="description">{{ association.role }} &bull; {{ association.year }}</h4>-->
+<!--          <p class="resume-item-copy">{{ association.summary }}</p>-->
+<!--        </div>-->
+<!--        {% endfor %}-->
 
-      </section>
-      <!-- end Associations -->
-      {% endif %}
+<!--      </section>-->
+<!--      &lt;!&ndash; end Associations &ndash;&gt;-->
+<!--      {% endif %}-->
 
       {% if site.resume_section_interests %}
       <!-- begin Interests -->
@@ -176,20 +176,25 @@
       <!-- end Interests -->
       {% endif %}
 
+
       {% if site.resume_section_links %}
       <!-- begin Links -->
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Additional Links</h2>
+          <h2>Contact</h2>
         </header>
 
         <div class="resume-item">
           <ul class="resume-item-list">
+
+            <li><a href="mailto:incarnatara@gmail.com"> 이메일 </a></li>
             {% for link in site.data.links %}
             <li><a href={{ link.url }} itemprop="url">{{ link.description }}</a></li>
             {% endfor %}
+
           </ul>
+
         </div>
 
       </section>
