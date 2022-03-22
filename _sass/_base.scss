@@ -10,18 +10,18 @@ html {
   background: $white;
 }
 
-body{
-  @include serif;
+body { //전반적인 모든 것을 관리하는 부분
+  @include sans;
   color: $text_color;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.55;
 }
 
 .wrapper:before,
 .wrapper:after { content:""; display:table; }
 .wrapper:after { clear: both; }
 .wrapper {
-  max-width: 728px;
+  max-width: 735px; //전체 크기
   padding: 0 24px;
   margin: 0 auto;
   zoom: 1;

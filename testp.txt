@@ -159,7 +159,7 @@ h5 {
     color: #333}ul{list-style:none;padding:0;margin:0 0 1rem;font-size:1.1rem}ul>li{position:relative;padding:.2rem 0 .2rem 1rem}ul>li:before{position:absolute;left:0;display:inline-block;content:"•";color:# 3 a7bd5
 }.container {
     width: 100 % ;max - width: 50 rem;margin: auto
-}.period - mark {
+}.period-mark {
     color: #3a7bd5}.big-paragraph{font-size:2rem;line-height:1.4;font-weight:500}@media screen and (max-width:960px){.big-paragraph{font-size:1.5rem}}.row{display:-webkit-box;display:-ms-flexbox;display:flex;padding:3rem 0;border-bottom:1px solid # eee
 }.row - left {
     -ms - flex - preferred - size: 18 rem;

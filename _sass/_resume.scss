@@ -3,18 +3,29 @@
 
 // util
 
-.section-header {
-  @include section_border;
+/* 위 | 오른쪽 | 아래 | 왼쪽 */
+//margin: 2px 1em 0 auto;
+
+.section-header { //타이틀
+//   @include section_border; //경계선 설정
   margin-bottom: 1.5rem;
 
   h2 {
-    @include sans;
+    @include sans; //ex : Work Experience
     font-weight: 900;
-    font-size: 1.75rem;
-    letter-spacing: -.05rem;
-    margin: 0;
+    font-size: 2.5rem;
+    letter-spacing: -.05rem; //타이틀 자간
+    margin: 2rem 0rem 1rem 0rem;
   }
 }
+
+.period-mark {color: #3a7bd5}
+
+.sub-description {
+ @include sans_bold;
+ line-height:2;
+}
+
 
 // page header styles
 
@@ -29,14 +40,14 @@
     display: block;
   }
 
-  .header-name {
-    @include sans;
-    font-size: 3rem;
-    font-weight: 900;
-    text-align: center;
-    letter-spacing: -.15rem;
-    line-height: 1;
-    margin: 1rem 0 0;
+  .header-name { //이력서 자기소개 타이틀 파트
+    @include sans_bold;//@include sans;
+    font-size: 4rem;
+    font-weight: 1000;
+    text-align: left;
+    letter-spacing: -.15rem; //이력서 자기소개 자간
+    line-height: 1.2;
+    margin: 5rem 0.5rem 1rem; //마진값
   }
 
   .header-contact-info {
@@ -70,7 +81,10 @@
   }
 
   .executive-summary {
-    @include media_larger_than_mobile { font-size: 1.125rem; }
+    @include media_larger_than_mobile {
+        @include sans_bold;
+        font-size: 1.2rem;
+    }
   }
 }
 
@@ -108,46 +122,47 @@
   }
 }
 
-.contact-button {
-  @include border-radius(3px);
-  background-color: #efefef;
-  text-decoration: none;
-  text-align: center;
-  display: block;
-  margin: 1.5rem auto;
-  width: 220px;
-  font-size: 1.375rem;
-  @include sans_light;
-  color: #333;
-  line-height: 55px;
-  @include transition(all .2s ease);
-
-  &:hover {
-    background-color: #333;
-    color: #fff;
-  }
-
-  &.not-looking { width: 400px; }
-}
+// .contact-button {
+//   @include border-radius(3px);
+//   background-color: #efefef;
+//   text-decoration: none;
+//   text-align: center;
+//   display: block;
+//   margin: 1.5rem auto;
+//   width: 220px;
+//   font-size: 1.375rem;
+//   @include sans_light;
+//   color: #333;
+//   line-height: 55px;
+//   @include transition(all .2s ease);
+//
+//   &:hover {
+//     background-color: #333;
+//     color: #fff;
+//   }
+//
+//   &.not-looking { width: 400px; }
+// }
 
 // resume content styles
+
 
 .content-section {
   margin: 0 0 3rem;
 
-  .resume-item { margin-bottom: 2rem; }
+  .resume-item { margin-bottom: 5rem; }
 
-  .resume-item-title {
+  .resume-item-title { //세미파이브 / Logic Design팀
     @include sans_bold;
-    margin: 0 0 .75rem;
+    margin: 3.5rem 0 .75rem;
     font-size: 1.5rem;
     letter-spacing: -.05rem;
     line-height: 1;
   }
 
-  .resume-item-details {
+  .resume-item-details { // System Developer, SoC Platform 개발
     font-size: 1.125rem;
-    margin: 0 0 .75rem;
+    margin: 0 0 -1rem;
     line-height: 1;
 
     &.award-title {
@@ -155,11 +170,17 @@
     }
   }
 
+
+
+
+
   .resume-item-title,
   .resume-item-details,
   .resume-item-copy,
   .resume-item-list {
+
     a {
+
       color: #333;
       text-decoration: none;
       border-bottom: 1px solid;
@@ -171,7 +192,9 @@
     }
   }
 
-  .resume-item-copy { margin: .75rem 0 0; }
+  .resume-item-copy {
+	
+   }
 }
 
 // footer styles
