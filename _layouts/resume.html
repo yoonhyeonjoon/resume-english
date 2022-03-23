@@ -59,9 +59,11 @@
         </header>
 
         {% for education in site.data.education %}
-        <div class="resume-item" itemscope itemprop="alumniOf" itemtype="http://schema.org/CollegeOrUniversity">
+        <div class="resume-item-no-footerline" itemscope itemprop="alumniOf" itemtype="http://schema.org/CollegeOrUniversity">
           <h3 class="resume-item-title" itemprop="name">{{ education.uni }}</h3>
-          <h4 class="resume-item-details group" itemprop="description">{{ education.degree }} &bull; {{ education.year }}</h4>
+          <h4 class="resume-item-details group" itemprop="description"> &nbsp {{ education.degree }}</h4>
+          <h5>  &nbsp&nbsp {{ education.year }} </h5>
+
           <h5 class="resume-item-details award-title" itemprop="description">{{ education.award }}</h5>
           <p class="resume-item-copy" itemprop="description">
             <ul class="resume-item-list">
@@ -71,9 +73,10 @@
             </ul>
 
 
-          <p class="resume-item-copy">{{ education.summary }}</p>
+          <p class="resume-item-copy" style="margin-left:15px; margin-top:30px;">{{ education.summary }}</p>
         </div>
         {% endfor %}
+        <div class="resume-item"> </div>
       </section>
       <!-- end Education -->
       {% endif %}
@@ -90,7 +93,8 @@
         <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
           <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
           <h3 class="resume-item-title" itemprop="name">{% if project.url %}<a href="{{ project.url }}" itemprop="url">{{ project.project }}</a>{% else %}{{ project.project }}{% endif %}</h3>
-          <h4 class="resume-item-details" itemprop="description">{{ project.role }}  &bull; {{ project.duration }}</h4>
+          <h4 class="resume-item-details" itemprop="description"> &nbsp {{ project.role }}  </h4>
+          <h5>  &nbsp&nbsp {{ project.duration }} </h5>
           <p class="resume-item-copy">{{ project.description }}</p>
         </div>
         {% endfor %}
@@ -104,15 +108,15 @@
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Skills</h2>
+          <h2>Skills</h2> <br>
         </header>
         {% for skill in site.data.skills %}
-        <div class="resume-item">
-          <h4 class="resume-item-details">{{ skill.skill }}</h4>
-          <p class="resume-item-copy">{{ skill.description }}</p>
+        <div class="resume-item-no-footerline">
+          <h4 class="resume-item-details"> &nbsp {{ skill.skill }}</h4>
+          <p class="resume-item-copy"> {{ skill.description }}</p>
         </div>
         {% endfor %}
-
+        <div class="resume-item"> </div>
       </section>
       <!-- end Skills -->
       {% endif %}
@@ -189,13 +193,14 @@
         <div class="resume-item">
           <ul class="resume-item-list">
 
-            <li><a href="mailto:incarnatara@gmail.com"> 이메일 </a></li>
+            <span class="period-mark">●</span> <a href="mailto:incarnatara@gmail.com"> 이메일 </a> <br>
             {% for link in site.data.links %}
-            <li><a href={{ link.url }} itemprop="url">{{ link.description }}</a></li>
+            <span class="period-mark">●</span> <a href={{ link.url }} itemprop="url">{{ link.description }}</a> <br>
             {% endfor %}
 
           </ul>
 
+          <br>
         </div>
 
       </section>
