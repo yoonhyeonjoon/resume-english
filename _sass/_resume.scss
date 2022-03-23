@@ -41,7 +41,7 @@
   }
 
   .header-name { //이력서 자기소개 타이틀 파트
-    @include sans_bold;//@include sans;
+    @include sans;//@include sans;
     font-size: 4rem;
     font-weight: 1000;
     text-align: left;
@@ -193,7 +193,7 @@
   }
 
   .resume-item-copy {
-	
+
    }
 }
 
