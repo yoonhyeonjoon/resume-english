@@ -40,10 +40,10 @@
     display: block;
   }
 
-  .header-name { //이력서 자기소개 타이틀 파트
+  .header-name { //이력서 자기소개 타이틀 파트 안녕하세요 윤현준입니다
     @include sans;//@include sans;
     font-size: 3.5rem;
-    font-weight: 700;
+    font-weight: 900;
     text-align: left;
     letter-spacing: -.15rem; //이력서 자기소개 자간
     line-height: 1.2;
