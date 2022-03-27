@@ -24,13 +24,13 @@
     <ul style="-webkit-padding-start:12px;">
       지역 기반 미팅 주선 서비스를 위한 android application을 개발하였습니다. <br>
       기획, 개발, 운영, 디자인, 홍보에 있어 모든 부분을 친동생 1명과 함께 만들었습니다. <br>
-      Front-end는 Kotlin을 사용하였으며, Back-end는 Firebase, 그리고 server side(cron, push message, etc)는 node.js로 구현하였습니다. <p>
+      App 개발 부분은 Kotlin을 사용하였으며, Back-end는 Firebase, 그리고 server side(cron, push message, etc)는 node.js로 구현하였습니다. <p>
     </ul>
 
 
     <ul style="-webkit-padding-start:15px;">
     <span class="sub-description">개발한 기능</span> <b> <span class="period-mark">:</span> </b> <br>
-    &nbsp <span class="period-mark">●</span> 로그인(Kakao/Google 계정 + Phone number), 회원 프로필 관리 부분 <br>
+    &nbsp <span class="period-mark">●</span> 로그인(Kakao/Google/Phone/Email), 회원 프로필 관리 부분 <br>
     &nbsp <span class="period-mark">●</span> 지도(naver map)에 기반한 미팅 모집 글 등록 및 조회 <br>
     &nbsp <span class="period-mark">●</span> 인근 지역 회원 소개 및 미팅 주선 <br>
     &nbsp <span class="period-mark">●</span> 채팅서비스(Firebase + Room cache) 및 Push Notification <br>
@@ -48,4 +48,5 @@
 
     <br>
 
-    위와 같은 사유로 디자인과 내부 코드를 개선하고 타겟층을 재정의할 필요성이 있어 Renewal하고 있습니다.
+    위와 같은 사유로 디자인과 내부 코드를 개선하고 타겟층을 재정의할 필요성이 있어 Renewal하고 있습니다. <br>
+    현재는 NavGraph/Compose를 사용하여 모든 코드를 마이그레이션 중입니다.
