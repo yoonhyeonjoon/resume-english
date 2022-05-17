@@ -1,6 +1,6 @@
 # Site settings
-title: "이력서 - 윤현준"
-description: "이력서입니다"
+title: "Resume - Yoon HyeonJoon"
+description: "This is my resume"
 
 # Build settings
 markdown: kramdown
@@ -10,8 +10,8 @@ sass:
 
 # Resume settings
 resume_avatar:                  "false"
-resume_name:                    "안녕하세요 <br> 윤현준입니다"
-resume_title:                   "저는 윤현준입니다"
+resume_name:                    "Yoon HyeonJoon"
+resume_title:                   "I'm Yoon HyeonJoon"
 
 # used for the contact button in _layouts/resume.html
 resume_contact_email:           "incarnatara@gmail.com"
@@ -23,9 +23,9 @@ resume_contact_address:         "742 Evergreen Terrace, Springfield"
 resume_header_contact_info:     "742 Evergreen Terrace, Springfield • 555-7334 • lisasimpson@youremailaddress.com"
 display_header_contact_info:    "false"
 
-resume_header_intro: "<p> Computer language의 Reusability와 Extensibility에 대한 끊임없는 탐구와 구현을 갈구하는 컴퓨터 엔지니어입니다. <br>
-           저는 제가 경험하는 Computer System과 Design Architecture의 Operating philosophy에 대한 이해와 그에 따른 구현을 즐깁니다. <br>
-           Computer Engineer의 가치는 변화하는 세상에 대해 더 효율적이고 통찰력 있는 System을 구현하는데 있다고 믿고 있습니다.<p>"
+resume_header_intro: "<p> I am a computer engineer who is constantly eager to seek and realize the reusability and extensibility of computer language. <br>
+           I enjoy understanding and implementing the operating philosophy of computer system and design architecture that I have experienced. <br>
+           I believe that the value of computer engineers lies in implementing systems that are more efficient and insightful for a changing world. <p>"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
