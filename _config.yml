@@ -23,8 +23,8 @@ resume_contact_address:         "742 Evergreen Terrace, Springfield"
 resume_header_contact_info:     "742 Evergreen Terrace, Springfield • 555-7334 • lisasimpson@youremailaddress.com"
 display_header_contact_info:    "false"
 
-resume_header_intro: "<p> I am a computer engineer who is constantly eager to seek and realize the reusability and extensibility of computer language. <br><br>
-           I enjoy understanding and implementing the operating philosophy of computer system and design architecture that I have experienced. <br><br>
+resume_header_intro: "<p> I am a computer engineer who is constantly eager to seek and realize the reusability and extensibility of computer language. <br>
+           I enjoy understanding and implementing the operating philosophy of computer system and design architecture that I have experienced. <br>
            I believe that the value of computer engineers lies in implementing systems that are more efficient and insightful for a changing world. <p>"
 
 # use "yes" to display the email contact button,
