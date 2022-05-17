@@ -1,49 +1,49 @@
 # Jobs
 # VP of Global Communications
 
-- company: 세미파이브 / Logic Design팀
-  position: System Developer, SoC Platform 개발
-  duration: 2020.11.02 ~ 현재
+- company: Semifive  / Logic Design Team
+  position: System Developer, SoC Platform Development
+  duration: 2020.11.02 ~ Present
   summary:  <p>
-    <span class="sub-description">저희 팀은 이런 역할이었어요</span> <b> <span class="period-mark">:</span> </b> <br>
-    &nbsp Scala를 사용한 Hardware design language(Chisel)와 그 Compiler인 FIRRTL(Flexible Internal Representation for RTL)을 개선하고, 이를 이용한 Open source chip generator RocketChip(<a href="https://github.com/chipsalliance/rocket-chip"> https://github.com/chipsalliance/rocket-chip </a>) System을 개발합니다. <br>
-    또한 이 System을 이용하여 SoC에 사용할 Bus System, Clock Unit등의 Logic을 설계하고 물리적인 Chip의 feasibility를 Test합니다. <br>
+    <span class="sub-description">Team Roles</span> <b> <span class="period-mark">:</span> </b> <br>
+    &nbsp Improve the hardware design language (Chisel) using Scala and its compiler, FIRRTL (Flexible Internal Representation for RTL), and developed the open source chip generator RocketChip system(https://github.com/chipsalliance/rocket-chip). <br>
+    In addition, using this system, we design logics such as asynchronous bus system and clock unit group to be used in SoC(System on Chip) and test the feasibility of physical chip. <br>
     <br><p>  <p>
-    <span class="sub-description">저는 이런 일을 했어요</span> <b> <span class="period-mark">:</span> </b> <br>
-    <span class="period-mark">●</span>	RocketChip System 개발 및 Contribute <br>
-    <span class="period-mark">●</span>	FIRRTL Compiler의 intermediate representation(IR)을 통한 SoC Object model 설계 및 개발 <br>
-    <span class="period-mark">●</span>	Functional/Declarative programming 방법론에 따른 Chisel을 이용한 SoC 설계 및 개발 <br>
-    <span class="period-mark">●</span>	FIRRTL Compiler의 Custom annotation(Generating 되는 IR에 대한 Hash applying, Generated HDL에 대한 Hierarchy detecting) 개발 및 Contribute <br>
-    <span class="period-mark">●</span>	SBT/Gradle/Wake를 사용한 build process 구축 <br>
+    <span class="sub-description">What I did</span> <b> <span class="period-mark">:</span> </b> <br>
+    <span class="period-mark">●</span>	RocketChip System development and Contribute <br>
+    <span class="period-mark">●</span>	SoC object model design and development through intermediate representation (IR) of FIRRTL Compiler <br>
+    <span class="period-mark">●</span>	SoC design and development using Chisel using Functional / Declarative programming methodology <br>
+    <span class="period-mark">●</span>	FIRRTL Compiler's Custom annotation (e.g. hash applying to generated IR, Hierarchy detecting to Generated HDL) development and contribution <br>
+    <span class="period-mark">●</span>	Build a build process using SBT / Gradle / Wake <br>
     <br>
     <p>
-    <span class="sub-description">기술 스택</span> <b> <span class="period-mark">:</span> </b> <br>
-    &nbsp Scala, Gradle, SBT, Clean Architecture, Unit Test, Multiple-Git Repository, Github/GitLab, CI, Annotation
+    <span class="sub-description">Tech stack</span> <b> <span class="period-mark">:</span> </b> <br>
+    &nbsp Scala, Gradle, SBT, Clean Architecture, Unit Test, Multiple-Git Repository, Github / GitLab, CI, Annotation
 
-- company: LG디스플레이 / Operating System Design팀
-  position: 선임연구원, 영상처리 알고리즘 개발
+- company: LG Display / Operating System Design Team
+  position: Senior researcher, image processing algorithm development
   duration: 2017.09.28 ~ 2020.10.25
   summary: <p>
 
-    <span class="sub-description">저희 팀은 이런 역할이었어요</span> <b> <span class="period-mark">:</span> </b> <br>
-    C++/Matlab/Python 등을 사용하여 OLED에 적용할 영상처리 알고리즘을 개발 및 테스트 한 뒤, Verilog를 통해 Hardware level에서 이를 구현하여 ASIC으로 양산합니다. <br>
-    Device를 Operating 하기 위한 Module 들을 Integrating하여 하나의 Operating System을 갖춥니다. 그리고 양산된 Chip의 검증 자동화 Process를 설계하여 Chip 검증 시 소요되는 시간과 비용을 절감합니다. <br>
+    <span class="sub-description">Team Roles</span> <b> <span class="period-mark">:</span> </b> <br>
+    After developing and testing an image processing algorithm to be applied to OLED(Organic Light Emitting Diodes) using C++/Matlab/Python, etc., it is implemented at the hardware level through Verilog and mass-produced as ASICs. <br>
+    Integrating the modules for operating the device to have one operating system. And by designing an automated process for verification of mass-produced chips, the time and cost required for chip verification are reduced. <br>
     <br>
 
-    <span class="sub-description">저는 이런 일을 했어요</span> <b> <span class="period-mark">:</span> </b> <br>
-    <span class="period-mark">●</span>	Circuit Compensation Algorithm 개발 및 검증(Python, Verilog) <br>
-    &nbsp&nbsp-	OLED Circuit level의 회로 상태 인지 및 개선 알고리즘 개발 <br>
-    &nbsp&nbsp-	OLED Burn-in 방지 알고리즘 개발 및 적용 <br>
-    &nbsp&nbsp-	영상 Data 압축 알고리즘 개발 <br>
+    <span class="sub-description">What I did</span> <b> <span class="period-mark">:</span> </b> <br>
+    <span class="period-mark">●</span>	Circuit Compensation Algorithm development and verification (Python, Verilog) <br>
+    &nbsp&nbsp-	Development of circuit status recognition and improvement algorithm for OLED Circuit level <br>
+    &nbsp&nbsp-	Development and application of OLED burn-in prevention algorithm <br>
+    &nbsp&nbsp-	Development of image data compression algorithm <br>
     <br>
-    <span class="period-mark">●</span>	SoC Algorithm Verification 자동화 System개발(Python) <br>
-    &nbsp&nbsp-	Chip Algorithm에 대한 동작성 검증 작업을 man-power에서 자동화로 바꾸는 system을 최초 개발 <br>
-    &nbsp&nbsp-	Script 기반의 Command 인지하는 Lexer와 Parser를  Python으로 구현 <br>
-    &nbsp&nbsp-	각 모듈을 Factory method pattern based로 구현하여 각각의 Command execute시 객체 관리를 용이하게 설계 <br>
+    <span class="period-mark">●</span>	SoC Algorithm Verification automation system development (Python) <br>
+    &nbsp&nbsp-	Developed the first system to change the operation verification work for Chip Algorithm from man-power to automation <br>
+    &nbsp&nbsp-	Script-based Command-aware Lexer and Parser implemented in Python <br>
+    &nbsp&nbsp-	By implementing each module based on Factory method design pattern, it is easy to design object management when executing each command. <br>
     <br>
     <p>
-    <span class="sub-description">기술 스택</span> <b> <span class="period-mark">:</span> </b> <br>
-    &nbsp&nbsp C++, Python, Matlab, Image Processing, Verilog, SystemVerilog,
+    <span class="sub-description">Tech stack</span> <b> <span class="period-mark">:</span> </b> <br>
+    &nbsp&nbsp C++, Python, Matlab, Image Processing, Verilog, SystemVerilog
 
 
 #- company: Springfield International Human Rights Outreach

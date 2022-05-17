@@ -1,13 +1,13 @@
 # Degree
-- degree: 전기전자공학(영상신호처리) 석사 #(영상신호처리 전공)
-  uni: 고려대학교
+- degree: M.S., Electrical and Electronic Engineering (Image Signal Processing) #(영상신호처리 전공)
+  uni: Korea University
   year: 2015.03 ~ 2017.08
 #  awards:
 #    - award: 영상신호처리 전공
-  summary: 영상신호처리를 전공하였고 영상처리에 대한 수학적인 이론과 Software algorithm과 Computer architecture에 대한 공부를 하였습니다
+  summary: I majored in image signal processing and studied mathematical theories for machine learning based on image processing, software algorithms, and computer architecture
 
-- degree: 전기전자전파 공학부 학사
-  uni: 고려대학교
+- degree: B.S., Electrical and Electronic Engineering
+  uni: Korea University
   year: 2011.3 ~ 2015.2
   # award: Most likely to succeed
-  summary: 전자회로와 통신공학에 대하여 주 전공으로 공부하였다가, 4학년때 영상처리 이론과 Machine learning 수업을 수강한 뒤, 이에 대한 가능성을 느끼고 Computer programming 분야를 시작하였습니다
+  summary: I studied electronic circuits and communication engineering as my main major, and after taking image processing theory and machine learning classes in my 4th year, I felt the potential and started computer programming.

@@ -16,36 +16,39 @@
 #  description: SCOG is a local monthly meetup in Springfield where we share opportunities to volunteer in the community and organize support for families and neighborhoods in need of assistance that the community can provide.
 
 
-- project: 나이만(나도 이제 만날래) #, <a href="https://vlm-naiman.tistory.com"> https://vlm-naiman.tistory.com </a>)
+- project: Naiman (social group meeting application) #, <a href="https://vlm-naiman.tistory.com"> https://vlm-naiman.tistory.com </a>)
   url: https://vlm-naiman.tistory.com
-  role: 개인 프로젝트
+  role: Personal project
   duration: Oct, 2021.03 ~ Present
   description: <p>
     <ul style="-webkit-padding-start:12px;">
-      지역 기반 미팅 주선 서비스를 위한 android application을 개발하였습니다. <br>
-      기획, 개발, 운영, 디자인, 홍보에 있어 모든 부분을 친동생 1명과 함께 만들었습니다. <br>
-      App 개발 부분은 Kotlin을 사용하였으며, Back-end는 Firebase, 그리고 server side(cron, push message, etc)는 node.js로 구현하였습니다. <p>
+      We have developed an android application for area-based meeting arrangement service. <br>
+      Planning, development, manage, design, and advertising were all made with younger brother. <br>
+      The app development part used Kotlin, the back-end was Firebase, and the server side (cron, push message, etc) was implemented with node.js. <p>
     </ul>
 
     <ul style="-webkit-padding-start:15px;">
-    <span class="sub-description">개발한 기능</span> <b> <span class="period-mark">:</span> </b> <br>
-    &nbsp <span class="period-mark">●</span> 로그인(Kakao/Google/Phone/Email), 회원 프로필 관리 부분 <br>
-    &nbsp <span class="period-mark">●</span> 지도(naver map)에 기반한 미팅 모집 글 등록 및 조회 <br>
-    &nbsp <span class="period-mark">●</span> 인근 지역 회원 소개 및 미팅 주선 <br>
-    &nbsp <span class="period-mark">●</span> 채팅서비스(Firebase + Room cache) 및 Push Notification <br>
-    &nbsp <span class="period-mark">●</span> 결제(Google Billing API) <br>
-    &nbsp <span class="period-mark">●</span> 공지사항, 신고, 사용설명서 <br>
-    &nbsp <span class="period-mark">●</span> 회원 관리를 위한 전용 master-app <br>
+    <span class="sub-description">Developed features:</span> <b> <span class="period-mark">:</span> </b> <br>
+    &nbsp <span class="period-mark">●</span> Login (Kakao / Google / Phone / Email), member profile management section <br>
+    &nbsp <span class="period-mark">●</span> Registration and inquiry of meeting recruitment posts based on naver map <br>
+    &nbsp <span class="period-mark">●</span> Introduce local members and arrange meetings <br>
+    &nbsp <span class="period-mark">●</span> Chat service (Firebase + Room cache) and Push Notification <br>
+    &nbsp <span class="period-mark">●</span> Payment (Google Billing API) <br>
+    &nbsp <span class="period-mark">●</span> Notice, report, user manual <br>
+    &nbsp <span class="period-mark">●</span> Dedicated master-app for member management <br>
 
     </ul>
 
     <ul style="-webkit-padding-start:15px;">
-    <span class="sub-description">개발 이후 경과</span> <b> <span class="period-mark">:</span> </b> <br>
-    &nbsp <span class="period-mark">●</span> 현재 누적 가입자 200명 <br>
-    &nbsp <span class="period-mark">●</span> 홍보비 (Google Ads 사용 (서울과 경기도 타겟), 20만원 이상) <br>
-    &nbsp <span class="period-mark">●</span> 주 가입자 50대 이상 남성 <br>
+    <span class="sub-description">Progress since development</span> <b> <span class="period-mark">:</span> </b> <br>
+    &nbsp <span class="period-mark">●</span> Current cumulative 200 subscribers <br>
+    &nbsp <span class="period-mark">●</span> Advertising expenses (using Google Ads (Seoul and Gyeonggi-do targets), more than 200,000 won) <br>
+    &nbsp <span class="period-mark">●</span> Main subscriber male over 50 years old <br>
 
     <br>
 
-    위와 같은 사유로 디자인과 내부 코드를 개선하고 타겟층을 재정의할 필요성이 있어 Renewal하고 있습니다. <br>
-    현재는 NavGraph/Compose를 사용하여 모든 코드를 마이그레이션 중입니다.
+    For the above reasons, we are renewing because it is necessary to improve the design and internal code and redefine the target audience. <br>
+    I am currently migrating all my code using NavGraph / Compose.
+
+    <span class="sub-description">Tech stack</span> <b> <span class="period-mark">:</span> </b> <br>
+    Kotlin, Firebase, Node.Js, Jetpack-Compose, Coroutine / Flow
