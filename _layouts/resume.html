@@ -54,7 +54,7 @@
       <!-- begin Projects -->
       <section class="content-section">
         <header class="section-header">
-          <h2>Projects</h2>
+          <h2>Projects<span class="period-mark">.</span></h2>
         </header>
 
         {% for project in site.data.projects %}
@@ -117,7 +117,7 @@
       <!-- begin Education -->
       <section class="content-section">
         <header class="section-header">
-          <h2>Education</h2>
+          <h2>Education<span class="period-mark">.</span></h2>
         </header>
 
         {% for education in site.data.education %}
@@ -169,7 +169,7 @@
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Skills</h2> <br>
+          <h2>Skills<span class="period-mark">.</span></h2> <br>
         </header>
         {% for skill in site.data.skills %}
         <div class="resume-item-no-footerline">
@@ -188,13 +188,13 @@
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Contact</h2>
+          <h2>Contact<span class="period-mark">.</span></h2>
         </header>
 
         <div class="resume-item">
           <ul class="resume-item-list">
 
-            <span class="period-mark">●</span> <a href="mailto:incarnatara@gmail.com"> 이메일 </a> <br>
+            <span class="period-mark">●</span> <a href="mailto:incarnatara@gmail.com"> Email </a> <br>
             {% for link in site.data.links %}
             <span class="period-mark">●</span> <a href={{ link.url }} itemprop="url">{{ link.description }}</a> <br>
             {% endfor %}
