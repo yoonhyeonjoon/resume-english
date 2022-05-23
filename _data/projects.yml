@@ -49,6 +49,6 @@
 
     For the above reasons, we are renewing because it is necessary to improve the design and internal code and redefine the target audience. <br>
     I am currently migrating all my code using NavGraph / Compose.
-
+    <br>
     <span class="sub-description">Tech stack</span> <b> <span class="period-mark">:</span> </b> <br>
     Kotlin, Firebase, Node.Js, Jetpack-Compose, Coroutine / Flow
